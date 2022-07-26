@@ -1,0 +1,49 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputWrapper {
+    width: 100%;
+    display: flex;
+    gap: .7rem;
+}
+
+.inputWrapper input {
+    flex: 1;
+    height: 2.5rem;
+    line-height: 2;
+    outline: none;
+    border-radius: .8rem;
+    border: 1px solid #b6b5b5;
+    padding: .2rem 1rem;
+}
+
+#btnSumar {
+    width: 12rem;
+    cursor: pointer;
+}
